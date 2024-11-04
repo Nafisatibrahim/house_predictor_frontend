@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/house_predictor_frontend/static/css/main.c0858731.css",
-    "main.js": "/house_predictor_frontend/static/js/main.d8e92a9f.js",
+    "main.js": "/house_predictor_frontend/static/js/main.c6e200ec.js",
     "static/js/453.8ab44547.chunk.js": "/house_predictor_frontend/static/js/453.8ab44547.chunk.js",
     "index.html": "/house_predictor_frontend/index.html",
     "main.c0858731.css.map": "/house_predictor_frontend/static/css/main.c0858731.css.map",
-    "main.d8e92a9f.js.map": "/house_predictor_frontend/static/js/main.d8e92a9f.js.map",
+    "main.c6e200ec.js.map": "/house_predictor_frontend/static/js/main.c6e200ec.js.map",
     "453.8ab44547.chunk.js.map": "/house_predictor_frontend/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c0858731.css",
-    "static/js/main.d8e92a9f.js"
+    "static/js/main.c6e200ec.js"
   ]
 }
