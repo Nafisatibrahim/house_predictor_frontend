@@ -5,12 +5,13 @@ import Home from './components/Home';
 import Project from './components/Project';
 import Links from './components/Links';
 import Simulation from './components/Simulation';
-import MapClusters from './components/Map_clusters';  // Importing the MapClusters component
+import MapClusters from './components/Map_clusters';
 import './App.css';
 
 function App() {
     return (
-        <Router>
+        // Add basename to the Router to match the GitHub Pages repository name
+        <Router basename="/house_predictor_frontend">
             <div>
                 {/* Navigation Bar */}
                 <div className="navbar">
