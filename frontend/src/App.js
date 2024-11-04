@@ -1,6 +1,6 @@
 // src/App.js
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, NavLink } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, NavLink } from 'react-router-dom';
 import Home from './components/Home';
 import Project from './components/Project';
 import Links from './components/Links';
@@ -10,8 +10,7 @@ import './App.css';
 
 function App() {
     return (
-        // Add basename to the Router to match the GitHub Pages repository name
-        <Router basename="/house_predictor_frontend">
+        <Router>
             <div>
                 {/* Navigation Bar */}
                 <div className="navbar">
