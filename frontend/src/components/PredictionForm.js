@@ -53,7 +53,7 @@ function PredictionForm() {
     }
 
     try {
-      const response = await fetch('https://house-predictor-ux0x.onrender.com/predict', {
+      const response = await fetch(`${process.env.REACT_APP_API_URL}`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
