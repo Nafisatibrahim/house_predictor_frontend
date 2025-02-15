@@ -1,5 +1,5 @@
 
-# **House Predictor Frontend**
+# **House Price Predictor Frontend**
 
 This repository contains the React-based frontend implementation of the house price prediction system. It serves as the user-facing interface, allowing users to input house details and retrieve predictions from the backend API.
 
